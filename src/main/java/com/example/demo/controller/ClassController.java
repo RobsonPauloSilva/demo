@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired; // Importa a anot
 import org.springframework.http.HttpStatus; // Importa a classe HttpStatus para definir códigos de status HTTP.
 import org.springframework.http.ResponseEntity; // Importa a classe ResponseEntity para encapsular respostas HTTP.
 import org.springframework.web.bind.annotation.*; // Importa as anotações para mapear endpoints HTTP.
-import com.example.classes.model.Class; // Importa a classe de modelo Class.
-import com.example.classes.repository.ClassRepository; // Importa o repositório de classes.
+import com.example.demo.model.Class; // Importa a classe de modelo Class.
+import com.example.demo.repository.ClassRepository; // Importa o repositório de classes.
 
 @CrossOrigin(origins = "http://localhost:8081") // Permite solicitações de origens diferentes.
 @RestController // Indica que esta classe é um controlador REST.
